@@ -17,7 +17,7 @@ import time
 class EmoRythm(App):
     def build(self):
         self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-        self.emotion_model = load_model('C:\\Users\\ASUS\\Desktop\\Facial Recognization\\emotion_model.hdf5')
+        self.emotion_model = load_model('.\\emotion_model.hdf5')
         self.emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
         self.music_recommended = False
