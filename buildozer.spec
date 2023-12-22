@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Facial
+title = EmoRythm
 
 # (str) Package name
-package.name = facial
+package.name = emorythm
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -44,10 +44,10 @@ requirements = python3==3.6.7,kivy==2.2.1,hostpython3==3.6.7,pillow
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/presplash.png
+#presplash.filename = %(source.dir)s/Emo.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+#icon.filename = %(source.dir)s/data/Emo.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
